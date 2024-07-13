@@ -1,0 +1,16 @@
+path: /content/yolov5/parkcar
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: empty
+  1: parking-cars
+
+
+roboflow:
+  workspace: proposal-makhw
+  project: parking-lot-di4q4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proposal-makhw/parking-lot-di4q4/dataset/1
